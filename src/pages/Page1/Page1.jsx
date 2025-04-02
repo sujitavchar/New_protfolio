@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import GithubSvg from '/icons3/github.svg';
-import InstagramSvg from '/icons3/instagram.svg';
+import GithubSvg from '/icons3/Github.svg';
+import InstagramSvg from '/icons3/Instagram.svg';
 import LinkdinSvg from '/icons3/linkedin.svg';
-import XSvg from '/icons3/x.svg';
+import XSvg from '/icons3/X.svg';
 import Texthovereffect from '../components/Hoverrevel';
 import Maintext from '../components/Glow';
 import Typewriter from '../components/Typewriter';
