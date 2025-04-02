@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import GithubSvg from '/icons3/Github.svg';
-import InstagramSvg from '/icons3/Instagram.svg';
-import LinkdinSvg from '/icons3/Linkdin.svg';
-import XSvg from '/icons3/X.svg';
+import GithubSvg from '/icons3/github.svg';
+import InstagramSvg from '/icons3/instagram.svg';
+import LinkdinSvg from '/icons3/linkedin.svg';
+import XSvg from '/icons3/x.svg';
 import Texthovereffect from '../components/Hoverrevel';
 import Maintext from '../components/Glow';
 import Typewriter from '../components/Typewriter';
@@ -119,18 +119,18 @@ export const Page1 = () => {
                             transition={{ delay: 0.3, duration: 0.5 }}
                         >
                             {socialLinks.map((link, index) => (
-                                <motion.a
-                                    key={index}
-                                    href={link.href}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className={`w-14 h-14 rounded-full bg-gray-800 shadow-lg flex items-center justify-center transition-all duration-300 ${link.hoverColor} ${link.iconImageColor} hover:shadow-xl`}
-                                    whileHover={{ scale: 1.15, rotate: 5 }}
-                                    whileTap={{ scale: 0.95 }}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.1 * index + 0.4 }}
-                                >
+                            <motion.a
+                            key={index}
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`w-14 h-14 rounded-full bg-white shadow-lg flex items-center justify-center transition-all duration-300 hover:shadow-xl ${link.hoverColor}`}
+                            whileHover={{ scale: 1.15, rotate: 5 }}
+                            whileTap={{ scale: 0.95 }}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.1 * index + 0.4 }}
+                        >
                                     <img
                                         src={link.icon}
                                         alt={link.alt}

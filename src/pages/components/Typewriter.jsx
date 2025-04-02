@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const Typewriter = () => {
-    const texts = ["Hello, World!", "Software Engineer", "Problem Solver", "Aviation Enthusiast"];
+    const texts = ["Hello, World!", "Software Engineer", "Problem Solver", "Aerospace Enthusiast"];
     const [currentText, setCurrentText] = useState(texts[0]);
     const [index, setIndex] = useState(0);
 

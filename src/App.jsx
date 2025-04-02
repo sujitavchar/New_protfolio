@@ -9,7 +9,6 @@ import { Page6 } from './pages/Page6/Page6';
 import { Page7 } from './pages/Page7/Page7';
 import Loader from './components/Loader/Loader';
 import Navbar from './components/Navbar/Navbar';
-import { TextAnimation } from './components/TextFolder/TextAnimation';
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -92,27 +91,7 @@ function App() {
         <Navbar />
       </div>
 
-      {!isMobile && (
-        <div
-          style={{
-            top: cursorPosition.y,
-            left: cursorPosition.x,
-            transform: `translate(-50%, -50%) scale(${isClicking ? 0.8 : 1})`,
-          }}
-          className="pointer-events-none fixed z-50 will-change-transform"
-        >
-          <div className={`
-            w-4 h-4 md:w-5 md:h-5
-            rounded-full
-            bg-white
-            opacity-90
-            shadow-[0_0_10px_4px_rgba(255,255,255,0.3)]
-            transition-transform duration-150 ease-out
-          `} />
-        </div>
-      )}
-       
-      {!isMobile}
+      
 
       <div className="flex flex-col space-y-4 md:space-y-8 relative z-10">
         <section id="homepage" className="flex justify-center items-center min-h-screen p-4">
@@ -132,19 +111,14 @@ function App() {
           <Page4 />
         </section>
 
-        {/* <section className="hidden lg:flex justify-center items-center min-h-[1100px] p-4">
-          <Page5 />
-        </section> */}
+        
 
-        <div className="h-[10rem]"></div>
+       
 
         <section id="projects" className="flex justify-center items-center min-h-[2000px] md:min-h-[1800px] lg:min-h-[1500px] p-4">
           <Page6 />
         </section>
 
-        <div className='hidden lg:block md:block'>
-          <TextAnimation />
-        </div>
 
         <section id="contact" className="flex justify-center items-center min-h-[1000px] md:min-h-[1200px] lg:min-h-[1000px] p-4">
           <Page7 />
