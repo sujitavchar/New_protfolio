@@ -99,7 +99,7 @@ export const Page2 = () => {
                   For better viewing experience, please download the resume
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1lz4b58Bgih41fN8ir49B625yekF2iFEv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/19oiiPOR1lvDtHUI8uGf3-1FNRU0B2tIq/view?usp=sharing"
                   className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
                 >
                   View Resume
