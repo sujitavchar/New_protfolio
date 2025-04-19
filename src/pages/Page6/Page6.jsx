@@ -22,6 +22,13 @@ export const Page6 = () => {
             btnText: buttonText[1]
         },
         {
+            title: "BlogBook - Your ideas on the cloud",
+            description: "BlogBook is an online platform where you can create, edit and update your notes/blogs...",
+            path: "/Project_Pics/blogbook.png",
+            link: "https://blogbook-saprojects.netlify.app/",
+            btnText: buttonText[1]
+        },
+        {
             title: "OSPF Protocol Visualizer",
             description: "Designed and implemented a React.js-based web application to simulate and visualize the Open Shortest Path First (OSPF) protocol...",
             path: "/Project_Pics/ospf.png",
