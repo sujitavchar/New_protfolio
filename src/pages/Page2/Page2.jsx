@@ -72,7 +72,7 @@ export const Page2 = () => {
             Worked as a SWE Intern at WallMag, contributing to scalable solutions for creator event hosting and management. Creator of OrganizeIt, a productivity tool that has simplified file organization for about 1,000 users. Pursuing a B.Tech in Computer Engineering , with a strong focus on backend development, system software, and algorithms, driven by a passion for real-world problem-solving and innovation.            </p>
             <h3 className="text-white font-semibold text-lg mt-4 mb-2"> Currently Building</h3>
             <ul className="text-gray-300 list-disc pl-5">
-              <li><a href="https://github.com/sujitavchar/Interviwer" className="text-blue-400"> Interviewer</a>  A knowledge sharing platform , dedicated for sharing interview experiences and study materials</li>
+              <li><a href="https://github.com/sujitavchar/Interviwer" className="text-blue-400"> Software Solutoins</a> </li>
             </ul>
 
             <h3 className="text-white font-semibold text-lg mt-4 mb-2">Latest Projects</h3>
