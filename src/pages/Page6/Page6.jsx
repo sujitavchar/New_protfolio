@@ -7,18 +7,18 @@ export const Page6 = () => {
     const buttonText = ["Click Here", "Checkout  Here"]
     const projectList = [
         {
+            title: "NETWRK - Networking platform for professionals",
+            description: "NETWRK is a modern, open-source professional networking platform built to empower users with smart tools and secure access. Designed to simplify content creation and enhance engagement, NETWRK integrates cutting-edge AI features with robust authentication systems, making it a standout tool for professionals and content creators alike.",
+            path: "/Project_Pics/netwrk.png",
+            link: "https://netwrk-frontend-production.up.railway.app/",
+            btnText: buttonText[1]
+        },
+        {
             title: "OrganizeIt",
             description: "Streamline your digital workspace with OrganizeIt, the ultimate desktop app for effortless file organization...",
             path: "/Project_Pics/organizeit.png",
             link: "https://organizeitinc.netlify.app/",
             tech_stack: ["Python ", "Inno Setup", "PyInstaller", "Shutli"],
-            btnText: buttonText[1]
-        },
-        {
-            title: "BlogBook - Your ideas on the cloud",
-            description: "BlogBook is an online platform where you can create, edit and update your notes/blogs...",
-            path: "/Project_Pics/blogbook.png",
-            link: "https://blogbook-saprojects.netlify.app/",
             btnText: buttonText[1]
         },
         {
