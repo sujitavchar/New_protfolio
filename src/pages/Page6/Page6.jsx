@@ -10,7 +10,7 @@ export const Page6 = () => {
             title: "NETWRK - Networking platform for professionals",
             description: "NETWRK is a modern, open-source professional networking platform built to empower users with smart tools and secure access. Designed to simplify content creation and enhance engagement, NETWRK integrates cutting-edge AI features with robust authentication systems, making it a standout tool for professionals and content creators alike.",
             path: "/Project_Pics/netwrk.png",
-            link: "https://netwrk-frontend-production.up.railway.app/",
+            link: "https://netwrk-frontend.vercel.app/",
             btnText: buttonText[1]
         },
         {
