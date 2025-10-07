@@ -108,7 +108,7 @@ export const Page2 = () => {
             ) : (
               <div className="h-[800px]">
                 <iframe
-                  src="/Resume/Resume.pdf"
+                  src="/Resume/SujitAvchar_Resume.pdf"
                   className="w-full h-full"
                   title="Resume PDF"
                 ></iframe>
